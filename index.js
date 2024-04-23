@@ -35,6 +35,6 @@ app.get("/getUsers", (req, res) => {
 
 });
 
-app.listen(3002, () => {
+app.listen(PORT, () => {
   console.log(`Server started successfully at port ${PORT}`);
 });
