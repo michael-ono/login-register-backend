@@ -5,7 +5,7 @@ import mongoose from "mongoose";
 const startDB = () => {
   mongoose.connect("mongodb://127.0.0.1:27017/userData")
   .then(() => {
-    console.log("Database connected successfully");
+    console.log("Database has been connected successfully");
   })
   .catch((error) => {
     console.error("Error connecting to database:", error);
